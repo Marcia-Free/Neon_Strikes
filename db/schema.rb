@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2020_12_04_175553) do
 
   create_table "attacks", force: :cascade do |t|
     t.string "name"
-    t.integer "damage"
+    t.string "damage"
     t.string "attack_type"
     t.string "target"
     t.datetime "created_at", precision: 6, null: false
@@ -35,7 +35,6 @@ ActiveRecord::Schema.define(version: 2020_12_04_175553) do
   create_table "enemies", force: :cascade do |t|
     t.string "name"
     t.integer "health"
-    t.integer "attack_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -60,7 +59,6 @@ ActiveRecord::Schema.define(version: 2020_12_04_175553) do
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "health"
-    t.integer "attack_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
