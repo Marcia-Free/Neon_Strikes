@@ -4,9 +4,7 @@ This is a Ruby on Rails application. Neon themed totally serious fighter game. H
 
 
 ## Link to Demo Video
-
-video link below
-Coming Soon
+https://youtu.be/A_axRZ3ixBY
 
 ## Application Features
 * A user can a create a new player, enemy, location, and attack
