@@ -4,7 +4,9 @@ This is a Ruby on Rails application. Neon themed totally serious fighter game. H
 
 
 ## Link to Demo Video
-https://youtu.be/A_axRZ3ixBY
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=A_axRZ3ixBY
+" target="_blank"><img src="http://img.youtube.com/vi/A_axRZ3ixBY/0.jpg" 
+alt="Neon Strikes App" width="240" height="180" border="10" /></a>
 
 ## Application Features
 * A user can a create a new player, enemy, location, and attack
